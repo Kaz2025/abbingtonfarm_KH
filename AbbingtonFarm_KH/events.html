@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Info about the site and links to other items -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abbington Farm</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/buttonsstyles.css">
+    <link rel="stylesheet" href="css/pageeventsstyles.css">
+    <script src="https://kit.fontawesome.com/e3de9b6bbe.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- All visible content here -->
+    <!-- Banner / Header Section -->
+    <header id="navbar">
+        <!-- Top section of the header - Two navigation buttons, logo and search bar -->
+        <section class="grid3">
+            <nav>
+                <ul>
+                    <li><a href="contactfind.html">Contact/Find</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav> 
+            <div class="logo">
+                <a href="index.html"><img src="images/abbington_farm_logo.png" alt="Abbington Farm Logo hills sunrise and apple tree"></a>
+            </div>
+            <div class="search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Search..">
+              </div>
+        </section>
+        <!-- Bottom section of the header - Five navigation buttons -->
+        <section> 
+            <nav>
+                <ul class="grid5">
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="cafe.html">Café</a></li>
+                    <li><a href="activities.html">Activities</a></li>
+                    <li><a href="events.html" class="active">Events</a></li>
+                    <li><a href="planyourvisit.html">Plan Your Visit</a></li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+    <!-- Main Content Section -->
+    <main>
+        <!--Hero Section-->
+        <section class="hero">
+            <img src="images/events_4.jpg" alt="Jam pot and apples on a wooden table outside">
+            <h1>Events</h1>
+        </section>
+        <!--Main Section-->
+        <section class="main-content">
+            <!-- Two Dropdowns Section -  -->
+            <div class="grid2">
+                <div class="grid2-card">
+                    <div class="dropdown">
+                        <button class="dropbtn">
+                            Season
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="#">Spring</a>
+                            <a href="#">Summer</a>
+                            <a href="#">Autumn</a>
+                            <a href="#">Winter</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn">
+                            Category
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                          <a href="#">Food</a>
+                          <a href="#">Fun</a>
+                          <a href="#">Educational</a>
+                          <a href="#">Wilderness</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Grid of Feature Cards Section - Events -->
+            <div class="rowwrap">
+                <div class="rowwrap-container">
+                    <div class="rowwrap-card">
+                        <img src="images/events_1.jpg" alt="Close up of a young lamb">
+                        <button class="std-button">Book</button>
+                    </div>
+                    <div class="rowwrap-card">
+                        <img src="images/events_2.jpg" alt="Rolling pin and 7 balls of pastry, with flour over">
+                        <button class="std-button">Book</button>
+                    </div>
+                    <div class="rowwrap-card">
+                        <img src="images/events_3.jpg" alt="Map, compass and magnifying glass">
+                        <button class="std-button">Book</button>
+                    </div>
+                    <div class="rowwrap-card">
+                        <img src="images/events_4.jpg" alt="Jam pot and apples on a wooden table outside">
+                        <button class="std-button">Book</button>
+                    </div>
+                    <div class="rowwrap-card">
+                        <img src="images/events_5.jpg" alt="Pile of pumpkins">
+                        <button class="std-button">Book</button>
+                    </div>
+                    <div class="rowwrap-card">
+                        <img src="images/home_walks.jpg" alt="Rural landscape with green fields and trees over a sunny day">
+                        <button class="std-button">Book</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Button Plan Your Visit Section -->
+            <div class="grid2">
+                <a href="planyourvisit.html"><button class="std-button">Plan Your Visit</button></a>
+            </div>
+        </section>
+    </main>
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-address">
+                <a href="index.html"><img src="images/abbington_farm_logo.png" alt="Abbington Farm Logo hills sunrise and apple tree"></a>
+                <h4>Address:</h4>
+                <p>Abbington Farm, Abington</p>
+                <p>Biggar ML12 6RH</p>
+                <h4>Contact:</h4>
+                <p>01864 502501</p>
+                <p>info@abbingtonfarm.com</p>
+            </div>
+            <div class="footer-times">
+                <h4>Opening Times</h4>
+                <p>Monday to Saturday</p>
+                <p>8am to 5pm</p>
+                <p>Sunday</p>
+                <p>9am to 4.30pm</p>
+            </div>
+            <div class="footer-nav">
+                <h4>Sitemap</h4>
+                <nav>
+                    <ul>
+                        <li><a href="contactfind.html">Contact/Find</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="shop.html">Shop</a></li>
+                        <li><a href="cafe.html">Café</a></li>
+                        <li><a href="activities.html">Activities</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="planyourvisit.html">Plan Your Visit</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="footer-subscribe">
+                <h4>Subscribe</h4>
+                <p>Simply enter your email below:</p>
+                <form action="action_page.php">
+                    <input type="text" placeholder="Email address" name="mail" required>
+                    <input type="submit" value="Subscribe">
+                </form>
+                <p>By subscribing, you agree to receive emails from us and acknowledge our Privacy Policy.</p>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <p>&copy; Copyright 2025</p>  
+            </div>
+        </div>
+    </footer>
+    <!-- JavaScript Linked Files Section -->
+    <script type="text/javascript" src="js/currentpage.js"></script>
+    <script type="text/javascript" src="js/faqs.js"></script>
+    <script type="text/javascript" src="js/reviews.js"></script>
+    <script type="text/javascript" src="js/news.js"></script>
+</body>
+</html>
