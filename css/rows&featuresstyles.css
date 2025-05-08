@@ -21,8 +21,9 @@
 }
 
 .row1 h4 {
-    color: #E30B5C;
-    text-shadow: 5px 5px 5px #FFDAB9;
+    color: #FFDAB9;
+    background-color: #E30B5C;
+    padding: 0.5em;
     font-size: 20px;
     position: absolute;
     bottom: 10%;
