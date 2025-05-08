@@ -1,0 +1,81 @@
+/* Reviews Section */
+.carousel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;  
+}
+
+.carousel-card60 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 60%;
+    padding: 10px;
+    border: 4px;
+    border-style: solid;
+    border-color: #E30B5C;
+    border-radius: 10px;
+}
+
+.carousel-card80 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 80%;
+    padding: 10px;
+    border: 4px;
+    border-style: solid;
+    border-color: #E30B5C;
+    border-radius: 10px;
+}
+
+.carousel-content {
+    padding: 2em;
+}
+
+.carousel-content {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+q {
+    width: 70%;
+    position: relative;
+    display: block;
+    background-color: #FFDAB9;
+    border-radius: 10px;
+    color: #E30B5C;
+    padding: 20px;
+    font-size: 25px;
+    font-style: italic;
+    text-align: center;
+}
+
+q::before {
+    content: '';
+}
+
+q::after {
+    content: "\2666";
+    position: absolute;
+    font-size: 40px;
+    bottom: -20px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    color: #FFDAB9;
+}
+
+.carousel p {
+    font-size: 18px;
+    padding-top: 2em;
+    color: #E30B5C;
+}
+
+

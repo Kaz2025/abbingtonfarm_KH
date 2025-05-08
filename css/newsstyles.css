@@ -1,0 +1,166 @@
+
+/* Carousel section */
+.carousel {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2em; 
+}
+
+.carousel-card60 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 60%;
+    padding: 10px;
+    border: 4px;
+    border-style: solid;
+    border-color: #E30B5C;
+    border-radius: 10px;
+}
+
+.carousel-card80 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 80%;
+    padding: 10px;
+    border: 4px;
+    border-style: solid;
+    border-color: #E30B5C;
+    border-radius: 10px;
+}
+
+.carousel-content {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carousel h2 {
+    text-align: top;
+    padding: 20px 0px;
+    font-style: italic;
+}
+
+.carousel img {
+    height: 400px;
+    width: 580px;
+    border-radius: 30px;
+    padding: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carousel p {
+    text-align: center;
+}
+
+.carousel i {
+    color: #E30B5C;
+    font-size: 30px;
+}
+
+/* Latest News Slideshow section */
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 2em 0 2em;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  padding: 0 2em 0 2em;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+
+  top: 50%;
+  width: auto;
+  margin-top: -5em;
+  padding: 16px;
+  color: #E30B5C;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: #FFDAB9;
+}
+
+/* Position h2 heading */
+.carousel-card60 h2 {
+    text-align: center;
+    padding: 2em 0 1em 0;
+}
+
+/* Caption text */
+.text {
+  color: #E30B5C;
+  font-size: 18px;
+  padding: 1em 0 1em 0;
+  width: 100%;
+  text-align: center;
+  font-style: italic;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 10px;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.dots {
+    padding-bottom:2em;
+}
+
+.active, .dot:hover {
+  background-color: #E30B5C;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+
