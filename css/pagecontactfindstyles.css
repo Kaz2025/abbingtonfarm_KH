@@ -5,7 +5,7 @@
     display: flex;
     flex-direction: column;
     justify-content: left;
-    align-items: center;
+    align-items: baseline;
     gap: 1em 0;
     width: 100%;
     padding: 1em 0;
